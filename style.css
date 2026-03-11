@@ -1,0 +1,27 @@
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="range"] {
+    overflow: hidden;
+    height: 20px;
+    -webkit-appearance: none;
+    background-color: #ececec;
+  }
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    width: 40px;
+    -webkit-appearance: none;
+    height: 40px;
+    cursor: pointer;
+    background: #fff;
+    box-shadow:
+      -340px 0 0 320px #1b63ed,
+      inset 0 0 0 40px #1b63ed;
+    border-radius: 50%;
+    transition: box-shadow 0.2s ease-in-out;
+    position: relative;
+  }
+}
