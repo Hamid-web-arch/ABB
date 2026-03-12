@@ -25,3 +25,13 @@
     position: relative;
   }
 }
+
+/* FOOTER */
+.bg-gradient-black {
+  background-image: radial-gradient(
+    45.81% 111.02% at 57.47% 14.48%,
+    #383c46 0,
+    #24282f 100%
+  );
+}
+
