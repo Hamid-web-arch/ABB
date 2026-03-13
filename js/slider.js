@@ -23,7 +23,7 @@ function initSlider(sliderElement) {
     showCard(current);
   });
 
-  setInterval(nextSlide, 300000);
+  setInterval(nextSlide, 3000);
 
   showCard(current);
 }
