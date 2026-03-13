@@ -35,3 +35,8 @@
   );
 }
 
+/* FOR KREDIT LIMITI SECTION BUTTON */
+.check-active {
+    background-color: #1b63ed !important;
+    color: #ffffff !important;
+}
