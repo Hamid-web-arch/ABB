@@ -1766,6 +1766,11 @@
       justify-content: space-between;
     }
   }
+  .xl\:gap-5 {
+    @media (width >= 80rem) {
+      gap: calc(var(--spacing) * 5);
+    }
+  }
   .xl\:py-0 {
     @media (width >= 80rem) {
       padding-block: calc(var(--spacing) * 0);
